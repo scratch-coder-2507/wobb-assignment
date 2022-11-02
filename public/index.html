@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<!-- 
+    	Boxer Template
+    	http://www.templatemo.com/tm-446-boxer
+    	-->
+		<meta charset="utf-8">
+		<title>Wobb - An Assignment</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+
+		<!-- animate css -->
+		<link rel="stylesheet" href="css/animate.min.css">
+		<!-- bootstrap css -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- font-awesome -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- google font -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700,800' rel='stylesheet' type='text/css'>
+
+		<!-- custom css -->
+		<link rel="stylesheet" href="css/templatemo-style.css">
+
+	</head>
+	<body>
+		<!-- start preloader -->
+		<div class="preloader">
+			<div class="sk-spinner sk-spinner-rotating-plane"></div>
+    	 </div>
+		<!-- end preloader -->
+		<!-- start navigation -->
+		<nav class="navbar navbar-default navbar-fixed-top templatemo-nav" role="navigation">
+			<div style="display: flex; justify-content: space-between" class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon icon-bar"></span>
+						<span class="icon icon-bar"></span>
+						<span class="icon icon-bar"></span>
+					</button>
+					<img src="./images/wobLogo.png" class="navbar-brand" alt="logo"/>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">For Marketers <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
+						<li><a href="#">For Influencers <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+
+				<div>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#"><img style="height: 20px; width: 20px" src="./images/indiaFlag.png" alt="India"> English <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
+						<li><a href="#">Log In</a></li>
+						<li><a style="display: flex;
+							justify-content: center;
+							align-items: center; margin-top: 10px; background: #012FB7;
+							border-radius: 8px; height: 45px; padding: 4px 10px; color: white" href="#">Sign Up</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- end navigation -->
+		<!-- start home -->
+		<section id="home">
+			<div class="overlay">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-1"></div>
+						<div class="col-md-12 wow fadeIn" data-wow-delay="0.3s">
+							<h1 style="font-style: normal;
+							font-weight: 600;
+							font-size: 48px;
+							line-height: 72px;
+							text-align: center;
+							letter-spacing: -0.8px;
+							
+							color: #333333;" class="text-upper">India’s Largest Platform for Influencers and Marketers</h1>
+							<p style="font-style: normal;
+							font-weight: 500;
+							font-size: 16px;
+							line-height: 28px;
+							/* or 175% */
+							
+							text-align: center;
+							
+							color: #484848;" class="tm-white">Wobb connects marketers with verified social media influencers for paid and barter campaigns</p>
+							<div style="padding-top: 25px;
+							">
+								<a style="padding: 16px 24px;
+							
+							gap: 19px;
+							font-style: normal;
+							font-weight: 500;
+							font-size: 16px;
+							line-height: 24px;
+							/* identical to box height, or 150% */
+
+							letter-spacing: 0.4px;
+
+							/* white */
+
+							color: #FFFFFF;
+							width: 196px;
+							height: 57px;
+							
+							background: #012FB7;
+							border-radius: 8px;" href="#">Demo Video <i class="fa fa-play-circle-o" aria-hidden="true"></i></a>
+							</div>
+							
+							<img style="padding-top: 20px" src="images/software-img.png" class="img-responsive" alt="home img">
+						</div>
+						<div class="col-md-1"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end home -->
+		<!-- start divider -->
+		<section style="background-color: #FAFAFA;" id="divider">
+			<div class="container">
+				<img src="images/featuredCampaigns.png" alt="Featured Campaigns">
+				<div style="display: flex;
+				flex-direction: row;
+				justify-content: center;
+				align-items: center; margin-top: 60px">
+					<a style="
+				padding: 16px 24px;
+				
+				position: absolute;
+				width: 196px;
+				font-weight: 500;
+				font-size: 16px;
+				height: 56px;
+				background: #012FB7;
+				border-radius: 8px;
+				color: white; text-align: center" href="#">View More</a>
+				</div>
+				
+			</div>
+		</section>
+		<!-- end divider -->
+
+		<!-- start feature -->
+		<section id="feature">
+			<div class="container">
+				<div style="margin-bottom: 15px; display: flex; justify-content: center; align-items: center;" class="row">
+					<div class="col-md-6 wow fadeInRight" data-wow-delay="0.6s">
+								
+						<img id="steponeImg" style="display: block;" src="images/steponeImg.png" class="img-responsive" alt="feature img">
+						<img id="steptwoImg" style="display: none;" src="images/steptwoImg.png" class="img-responsive" alt="feature img">
+						<img id="stepthreeImg" style="display: none;" src="images/stepthreeImg.png" class="img-responsive" alt="feature img">
+					</div>
+					<div class="col-md-6 wow fadeInLeft" data-wow-delay="0.6s">
+						<div>
+							<div onclick="onStepone()" id="stepone" style="background: #FFFFFF; cursor: pointer;
+							border-radius: 10px; margin-bottom: 15px;">
+								<div style="padding-left: 0.8em; padding-top: 0.2em; padding-bottom: 0.2em">
+									<h2 id="steponeTitle" style="font-style: normal;
+								font-weight: 700;
+								font-size: 28px;
+								line-height: 42px;
+								/* identical to box height */
+								
+								
+								color: #080C4E;">1. Post your campaign</h2>
+								<h2 id="steponeSubtitle" style="font-style: normal;
+								font-weight: 400;
+								font-size: 18px;
+								line-height: 27px;
+								/* identical to box height */
+								
+								
+								color: #484848;">Easily post your influencer campaign requirements</h2>
+								</div>
+							</div>
+							<div onclick="onSteptwo()" id="steptwo" style="background: none; cursor: pointer;
+							border-radius: 10px; margin-bottom: 15px;">
+								<div style="padding-left: 0.8em; padding-top: 0.2em; padding-bottom: 0.2em">
+									<h2 id="steptwoTitle" style="font-style: normal;
+								font-weight: 700;
+								font-size: 28px;
+								line-height: 42px;
+								/* identical to box height */
+								
+								
+								color: #848484;">2. Shortlist & hire influencers</h2>
+								<h2 id="steptwoSubtitle" style="font-style: normal;
+								display: none;
+								font-weight: 400;
+								font-size: 18px;
+								line-height: 27px;
+								/* identical to box height */
+								
+								
+								color: #484848;">Get applications from hundreds of verified influencers on the Wobb dashboard.</h2>
+								</div>
+							</div>
+							<div onclick="onStepthree()" id="stepthree" style="background: none; cursor: pointer;
+							border-radius: 10px; margin-bottom: 15px;">
+								<div style="padding-left: 0.8em; padding-top: 0.2em; padding-bottom: 0.2em">
+									<h2 id="stepthreeTitle" style="font-style: normal;
+								font-weight: 700;
+								font-size: 28px;
+								line-height: 42px;
+								/* identical to box height */
+								
+								
+								color: #848484;">3. Manage & monitor your campaign</h2>
+								<h2 id="stepthreeSubtitle" style="font-style: normal;
+								display: none;
+								font-weight: 400;
+								font-size: 18px;
+								line-height: 27px;
+								/* identical to box height */
+								
+								
+								color: #484848;">Handle content approvals, and track real-time progress & performance of your campaigns</h2>
+								</div>
+							</div>
+							<a style="padding: 16px 24px;
+							gap: 19px;
+							
+							position: absolute;
+							width: 196px;
+							height: 56px;
+							font-weight: 500;
+							font-size: 18px;
+							margin-top: 15px;
+							text-align: center;
+							background: #012FB7;
+							border-radius: 8px; color: white" href="#">Post campaign</a>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end feature -->
+
+		<!-- start footer -->
+		<div style="margin-top: 30px;" class="footer-clean">
+			<footer>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-sm-4 col-md-3 item">
+							<h3>Services</h3>
+							<ul>
+								<li><a href="#">Post a Campaign</a></li>
+								<li><a href="#">Request a Demo</a></li>
+							</ul>
+						</div>
+						<div class="col-sm-4 col-md-3 item">
+							<h3>About Wobb</h3>
+							<ul>
+								<li><a href="#">How it Works</a></li>
+								<li><a href="#">Terms</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+							</ul>
+						</div>
+						<div class="col-sm-4 col-md-3 item">
+							<h3>Help & Support</h3>
+							<ul>
+								<li><a href="#">FAQs</a></li>
+								<li><a href="#">Demo Videos</a></li>
+							</ul>
+						</div>
+						<div class="col-sm-4 col-md-3 item">
+							<h3>Talk with us</h3>
+							<ul>
+								<li><a href="#">for any queries</a></li>
+								<li><a style="text-decoration: underline; font-weight: bold" href="mailto:support@wobb.ai" target="_blank">support@wobb.ai</a></li>
+								<li><a style="text-decoration: underline; font-weight: bold"  href="tel:+919643643634">+91 9643643634</a></li>
+							</ul>
+						</div>
+					</div>
+					<div style="display: flex; justify-content: space-between" class="item social">
+						<p style="padding-top: 30px;" class="copyright">©2021 International Pvt. Ltd. All Rights Reserved</p>
+						<div class="icon">
+							<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+						</div>
+						
+					</div>
+				</div>
+			</footer>
+		</div>
+		<!-- <footer>
+			<div class="container">
+				<div class="row">
+					<p>Copyright © 2084 Your Company Name</p>
+				</div>
+			</div>
+		</footer> -->
+		<!-- end footer -->
+
+		<script>
+
+			const stepone = document.getElementById("stepone");
+			const steponeTitle = document.getElementById("steponeTitle");
+			const steponeSubtitle = document.getElementById('steponeSubtitle');
+			const steponeImg = document.getElementById("steponeImg");
+
+			const steptwo = document.getElementById("steptwo");
+			const steptwoTitle = document.getElementById("steptwoTitle");
+			const steptwoSubtitle = document.getElementById('steptwoSubtitle');
+			const steptwoImg = document.getElementById("steptwoImg");
+
+			const stepthree = document.getElementById("stepthree");
+			const stepthreeTitle = document.getElementById("stepthreeTitle");
+			const stepthreeSubtitle = document.getElementById('stepthreeSubtitle');
+			const stepthreeImg = document.getElementById("stepthreeImg");
+
+			function onStepone() {
+				
+				if (steponeSubtitle.style.display === "none") {
+					stepone.style.display = "block";
+					steponeSubtitle.style.display = "block";
+					steponeImg.style.display = "block";
+					stepone.style.background = "#ffffff";
+					steponeTitle.style.color = "#080C4E";
+					steptwoSubtitle.style.display = "none";
+					stepthreeSubtitle.style.display = "none";
+					steptwo.style.background = "none";
+					stepthree.style.background = "none";
+					steptwoTitle.style.color = "#848484";
+					stepthreeTitle.style.color = "#848484";
+					steptwoImg.style.display = "none";
+					stepthreeImg.style.display = "none";
+				} else {
+					steptwoSubtitle.style.display = "none";
+					stepthreeSubtitle.style.display = "none";
+					steptwo.style.background = "none";
+					stepthree.style.background = "none";
+					steptwoTitle.style.color = "#848484";
+					stepthreeTitle.style.color = "#848484";
+					steptwoImg.style.display = "none";
+					stepthreeImg.style.display = "none";
+				}
+			}
+
+			function onSteptwo() {
+				
+				if (steptwoSubtitle.style.display === "none") {
+					steptwo.style.display = "block";
+					steptwoSubtitle.style.display = "block";
+					steptwo.style.background = "#ffffff";
+					steptwoTitle.style.color = "#080C4E";
+					steptwoImg.style.display = "block";
+					steponeSubtitle.style.display = "none";
+					stepthreeSubtitle.style.display = "none";
+					stepone.style.background = "none";
+					stepthree.style.background = "none";
+					steponeTitle.style.color = "#848484";
+					stepthreeTitle.style.color = "#848484";
+					steponeImg.style.display = "none";
+					stepthreeImg.style.display = "none";
+				} else {
+					steponeSubtitle.style.display = "none";
+					stepthreeSubtitle.style.display = "none";
+					stepone.style.background = "none";
+					stepthree.style.background = "none";
+					steponeTitle.style.color = "#848484";
+					stepthreeTitle.style.color = "#848484";
+					steponeImg.style.display = "none";
+					stepthreeImg.style.display = "none";
+				}
+			}
+
+			function onStepthree() {
+				
+				if (stepthreeSubtitle.style.display === "none") {
+					stepthree.style.display = "block";
+					stepthreeSubtitle.style.display = "block";
+					stepthree.style.background = "#ffffff";
+					stepthreeTitle.style.color = "#080C4E";
+					stepthreeImg.style.display = "block";
+					steptwoSubtitle.style.display = "none";
+					steponeSubtitle.style.display = "none";
+					steptwo.style.background = "none";
+					stepone.style.background = "none";
+					steptwoTitle.style.color = "#848484";
+					steponeTitle.style.color = "#848484";
+					steponeImg.style.display = "none";
+					steptwoImg.style.display = "none";
+				} else {
+					steptwoSubtitle.style.display = "none";
+					steponeSubtitle.style.display = "none";
+					steptwo.style.background = "none";
+					stepone.style.background = "none";
+					steptwoTitle.style.color = "#848484";
+					steponeTitle.style.color = "#848484";
+					steponeImg.style.display = "none";
+					steptwoImg.style.display = "none";
+				}
+			}
+			
+		</script>
+
+		<script type="module">
+			// Import the functions you need from the SDKs you need
+			import { initializeApp } from "https://www.gstatic.com/firebasejs/9.13.0/firebase-app.js";
+			// TODO: Add SDKs for Firebase products that you want to use
+			// https://firebase.google.com/docs/web/setup#available-libraries
+		
+			// Your web app's Firebase configuration
+			const firebaseConfig = {
+			apiKey: "AIzaSyCLPfj0-lHhpd7zc5za9Q4bfXk4pOWYcYY",
+			authDomain: "wobb-assignment.firebaseapp.com",
+			projectId: "wobb-assignment",
+			storageBucket: "wobb-assignment.appspot.com",
+			messagingSenderId: "660600489364",
+			appId: "1:660600489364:web:7206098bab0584f69dfb81"
+			};
+		
+			// Initialize Firebase
+			const app = initializeApp(firebaseConfig);
+		</script>
+        
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/jquery.singlePageNav.min.js"></script>
+		<script src="js/custom.js"></script>
+	</body>
+</html>
